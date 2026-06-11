@@ -1,7 +1,7 @@
 workflows:
   android-workflow:
     name: Android Build
-    instance_type: mac_mini
+    instance_type: linux
     environment:
       java: 17
     scripts:
